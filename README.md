@@ -1,4 +1,4 @@
-# LUE_small
+# LUE-small-LFS
 
 LUE (Laguerre Unitary Ensemble) iid samples for sizes 1000, 5000, and 10000
 
