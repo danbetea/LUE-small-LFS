@@ -14,6 +14,6 @@ Iid samples from this distribution are given as follows:
 
 - each file is a ```.tar.gz``` archive of a text file
 - each line in each text file is an independent sample, starting from $\lambda_1$ (first column)
-- the number of samples is given by ```N * num_samples = 1 000 000```
+- the number of samples is given by ```N * num_samples = 10 000 000```
 - a file named e.g. ```LUE_N_5000_alpha_6.75.txt``` has $N=5000, \alpha = 6.75$, and hence 2000 lines (samples)
 - parameter $\alpha$ ranges from 1.00 to 6.75 in increments of 0.25
