@@ -2,7 +2,9 @@
 
 LUE (Laguerre Unitary Ensemble) iid samples for sizes 1000, 5000, and 10000
 
-This repository contains Laguerre-$\alpha$ Unitary Ensemble (LUE-$\alpha$) iid (independent and identically distributed) samples for $N=1000, 5000, 10000$ particles. More precisely, consider the LUE-$\alpha$ distribution on ordered tuples of $N$ positive real numbers $(x_1 < \dots < x_N)$. That is, consider the probability measure
+**Note:** This repository uses Git LFS (large file system). To clone the actual files and not just a stub of them, see [this tutorial](https://www.atlassian.com/git/tutorials/git-lfs).
+
+This repository contains Laguerre $\alpha$ Unitary Ensemble (LUE $\alpha$) iid (independent and identically distributed) samples for $N=1000, 5000, 10000$ particles. More precisely, consider the LUE $\alpha$ distribution on ordered tuples of $N$ positive real numbers $(x_1 < \dots < x_N)$. That is, consider the probability measure
 
 $$P(\lambda_1, \dots, \lambda_N)d \lambda_1 \dots d \lambda_N \propto \prod_{1 \leq i < j \leq N} (\lambda_i - \lambda_j)^2 \prod_{1 \leq i \leq N} \lambda_i^{\alpha-1} e^{-\lambda_i} d \lambda_i$$
 
